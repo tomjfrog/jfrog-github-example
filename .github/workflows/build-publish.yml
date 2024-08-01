@@ -54,7 +54,6 @@ jobs:
               run: |
                 jf rt u dist/ ghdemo-pypi/example-projects/ --module=jfrog-python-example
 
-      
             - name: Set up QEMU
               uses: docker/setup-qemu-action@v3                 
 

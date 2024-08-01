@@ -1,4 +1,4 @@
-name: Build, Publish and Scan Python Docker App
+name: build-publish-scan
 on:
     workflow_dispatch:
 

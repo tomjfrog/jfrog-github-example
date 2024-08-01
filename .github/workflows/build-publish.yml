@@ -121,7 +121,7 @@ jobs:
 
             - name: build scan
               run: |            
-                jf build-scan
+                jf build-scan build-publish-scan ${{ github.run_number }} 
                 
             - name: Write to workflow job summary
               run: |

@@ -120,4 +120,4 @@ jobs:
 
             - name: build scan
               run: |            
-                jf build-scan build-publish-scan ${{ github.run_number }}
+                jf build-scan
